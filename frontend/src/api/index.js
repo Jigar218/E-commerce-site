@@ -1,4 +1,4 @@
-const domain = "http://localhost:8080";
+const domain = process.env.REACT_URL; // "http://localhost:8080";
 
 const Api = {
   signUp: {
